@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url('https://images3.alphacoders.com/134/thumb-1920-1341034.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font: bold 24px "Calibri";
+    color: aliceblue;
+}
+
+.info-block {
+    text-align: center;
+    color: darkgrey;
+    font: bolder 16px "Calibri Light";
+}
+
+.category-name {
+    font: bold 26px "Calibri";
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    max-width: 910px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.block-gameplay {
+    background-color: rgba(108, 108, 108, 0.34);
+    padding: 20px;
+    border: 2px solid #0073d1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.block-items {
+    background-color: rgba(108, 108, 108, 0.34);
+    padding: 20px;
+    border: 2px solid #0073d1;
+    border-radius: 10px;
+}
+
+.block-visual {
+    background-color: rgba(108, 108, 108, 0.34);
+    padding: 20px;
+    border: 2px solid #0073d1;
+    border-radius: 10px;
+}
+
+.block-cheats {
+    background-color: rgba(108, 108, 108, 0.34);
+    padding: 20px;
+    border: 2px solid #0073d1;
+    border-radius: 10px;
+}
+
+.dropdown-toggle {
+    width: 400px;
+    background-color: #0073d1;
+    color: white;
+    font: normal 18px "Calibri Light";
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown-toggle:hover {
+    background-color: #005f5f;
+}
