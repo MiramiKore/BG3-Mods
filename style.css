@@ -15,14 +15,25 @@ html, body {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-attachment: fixed;
+    width: 100vw;
 }
 
 .content {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(5px);
     padding: 40px;
     border-radius: 20px;
     text-align: center;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.dropdown-content {
+    display: flex;
+    max-width: 400px;
+    color: darkgrey;
+    font: bolder 17px "Calibri Light";
 }
 
 .heading {
@@ -62,7 +73,7 @@ html, body {
 
 .block-gameplay {
     background-color: rgba(108, 108, 108, 0.34);
-    padding: 30px;
+    padding: 10px;
     border: 2px solid #0073d1;
     border-radius: 10px;
     text-align: center;
@@ -70,21 +81,21 @@ html, body {
 
 .block-items {
     background-color: rgba(108, 108, 108, 0.34);
-    padding: 30px;
+    padding: 10px;
     border: 2px solid #0073d1;
     border-radius: 10px;
 }
 
 .block-visual {
     background-color: rgba(108, 108, 108, 0.34);
-    padding: 30px;
+    padding: 10px;
     border: 2px solid #0073d1;
     border-radius: 10px;
 }
 
 .block-cheats {
     background-color: rgba(108, 108, 108, 0.34);
-    padding: 30px;
+    padding: 10px;
     border: 2px solid #0073d1;
     border-radius: 10px;
 }
@@ -100,6 +111,10 @@ html, body {
     border-radius: 10px;
 }
 
+.mod-info {
+    padding: 5px;
+}
+
 .dropdown-toggle:hover {
-    background-color: #005f5f;
+    background-color: #004977;
 }
